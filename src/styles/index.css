@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.construction {
+  background: url("../images/construction.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  color: white;
+}
