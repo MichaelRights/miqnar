@@ -34,7 +34,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <Typography
           gap={1}
           display="flex"
-          fontSize="20px"
+          fontSize="1.25rem"
           alignItems="center"
           variant="subtitle2"
           fontWeight="700"
@@ -93,7 +93,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <Typography
             variant="body1"
             display="flex"
-            fontSize="18px"
+            fontSize="1.125rem"
             component="a"
             href="mailto:miqnar@mail.ru"
             alignItems="self-end"
@@ -106,7 +106,7 @@ const IndexPage: React.FC<PageProps> = () => {
             gap={1}
             display="flex"
             alignItems="self-end"
-            fontSize="18px"
+            fontSize="1.125rem"
             variant="subtitle2"
             fontWeight="700"
           >
