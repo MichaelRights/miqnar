@@ -82,6 +82,7 @@ const IndexPage: React.FC<PageProps> = () => {
         }}
         display="flex"
         alignItems="center"
+        justifyContent="space-between"
         gap={10}
         style={{
           background: "#FFC700",
@@ -112,6 +113,18 @@ const IndexPage: React.FC<PageProps> = () => {
           >
             <IconLocationFilled /> ՀՀ Տավուշի մարզ ք․ Իջևան, Մետաղագործների Փ․
             /Տ/27Ա
+          </Typography>
+        </Box>
+        <Box>
+          <p style={{ height: 28 }}>&nbsp;</p>
+          <Typography
+            gap={1}
+            alignSelf="auto"
+            fontSize="1.125rem"
+            variant="subtitle2"
+            fontWeight="700"
+          >
+            Կայքը գտնվում է վերազինման փուլում
           </Typography>
         </Box>
       </Box>
